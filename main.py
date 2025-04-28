@@ -12,7 +12,7 @@ class ContadorApp(MDApp):
 
         layout = MDBoxLayout(orientation="vertical", spacing=20, padding=20)
 
-        # Toolbar
+        # TOOLBAR
         toolbar = MDTopAppBar(title="Contador KivyMD")
         layout.add_widget(toolbar)
 
